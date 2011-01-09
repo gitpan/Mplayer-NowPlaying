@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Mplayer-NowPlaying
-version:            0.015
+version:            0.020
 abstract:           query a running mplayer process for now playing metadata
 author:
     - Magnus Woldrich <trapd00r@trapd00r.se>
