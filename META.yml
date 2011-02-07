@@ -1,17 +1,19 @@
 --- #YAML:1.0
 name:               Mplayer-NowPlaying
-version:            0.020
-abstract:           query a running mplayer process for now playing metadata
+version:            0.024
+abstract:           Query a running Mplayer process for metadata
 author:
     - Magnus Woldrich <trapd00r@trapd00r.se>
 license:            perl
 distribution_type:  module
 configure_requires:
     ExtUtils::MakeMaker:  0
-build_requires:
-    ExtUtils::MakeMaker:  0
+build_requires:  {}
 requires:
     Test::More:  0
+resources:
+    bugtracker:  https://github.com/trapd00r/Mplayer-NowPlaying/issues
+    repository:  https://github.com/trapd00r/Mplayer-NowPlaying
 no_index:
     directory:
         - t
